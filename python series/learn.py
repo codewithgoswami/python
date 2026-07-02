@@ -479,6 +479,9 @@ factorial(n) = n*factorial(n-1)'''
         return n * factorial(n-1)
 
 i = int(input("Enter the number:"))
-print("The factorial of",i,"is",factorial(i))   '''
+print("The factorial of",i,"is",factorial(i))'''
+
+
+# File I/O-- File I/O (Input/Output) is a way to read and write data to files in a computer's file system. It allows programs to store and retrieve data from files, which can be useful for persisting data between program runs or for sharing data with other programs.
 
 
