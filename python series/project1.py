@@ -38,5 +38,5 @@ else:
         print("You Loose! Computer wins!")
 
     else:
-        print("Invalid input! Please enter stone, paper or scissors'''.") 
+        print("Invalid input! Please enter stone, paper or scissors.")'''
  
