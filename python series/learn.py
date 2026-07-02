@@ -464,5 +464,21 @@ goodday("lily","you are lucky today")'''
 
 # Recursion--Recursion is a programming technique where a function calls itself in order to solve a problem. It is often used to solve problems that can be broken down into smaller subproblems of the same type. A recursive function typically has a base case that stops the recursion and prevents infinite loops.
 
+'''factorial(1) = 1
+factorial(2) = 2 X 1
+factorial(3) = 3 X 2 X 1
+factorial(4) = 4 X 3 X 2 X 1
+factorial(5) = 5 X 4 X 3 X 2 X 1
+factorial(n) = n X (n-1) X ........ X 3 X 2 X 1
+factorial(n) = n*factorial(n-1)'''
+
+'''def factorial(n):
+    if (n == 1 or n == 0):
+        return 1
+    else:
+        return n * factorial(n-1)
+
+i = int(input("Enter the number:"))
+print("The factorial of",i,"is",factorial(i))   '''
 
 

@@ -31,5 +31,72 @@ elif(a3>a1 and a3>a2 and a3>a4):
 else:
     print("Greatest number is:", a4)'''
 
+# Function and Recursion--
 
+#1
+'''def greatest(a,b,c):
+    if(a>b and a>c):
+        return a
+    elif(b>a and b>c):
+        return b
+    elif(c>a and c>b):
+        return c
+    else:
+        return "All numbers are equal"
+
+a = int(input("Enter number1: "))
+b = int(input("Enter number2: "))
+c = int(input("Enter number3: "))
+print("Greatest number is:", greatest(a,b,c))'''
+
+#2
+'''def f_to_c(f):
+    c = (f-32)*5/9
+    return c
+
+f = int(input("Enter temperature in Fahrenheit: "))
+c = f_to_c(f)
+print(f"Temperature {f}°F in Celsius is: {round(c,2)}°C")'''
+
+#3
+'''print("a")
+print("b")
+print("c", end="")
+print("d")
+'''
+
+#4
+'''
+sum(1) = 1
+sum(2) = 1 + 2 = 3
+sum(3) = 1 + 2 + 3 = 6
+sum(4) = 1 + 2 + 3 + 4 = 10
+sum(5) = 1 + 2 + 3 + 4 + 5 = 15
+sum(n) = 1 + 2 + 3 + ... + (n-1) + n = (n*(n+1))/2
+'''
+
+'''def sum(n):
+    if (n==1):
+        return 1
+    return (n*(n+1))/2
+
+print("Sum of first n natural numbers is:", sum(5))'''
+
+'''def sum(n):
+    if (n==1):
+        return 1
+    return sum(n-1) + n
+
+print("Sum of first n natural numbers is:", sum(5))'''
+
+#5
+'''def pattern(n):
+    if(n==0):
+        return
+    print("*"*n)
+    pattern(n-1)
+   
+
+n = int(input("Enter number of rows:"))
+print(pattern(n))'''
 
