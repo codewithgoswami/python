@@ -484,4 +484,77 @@ print("The factorial of",i,"is",factorial(i))'''
 
 # File I/O-- File I/O (Input/Output) is a way to read and write data to files in a computer's file system. It allows programs to store and retrieve data from files, which can be useful for persisting data between program runs or for sharing data with other programs.
 
+'''f = open("file.txt") # "r" is the default mode for opening a file, which means that the file is opened in read-only mode. This means that you can read the contents of the file, but you cannot modify or write to it. If you want to write to a file, you need to open it in write mode ("w") or append mode ("a").
+data = f.read()
+print(data)
+f.close()'''
+
+# Types of File->
+# 1. Text files (.txt, .csv, .json, etc.)
+# 2. Binary files (.bin, .dat, .jpg, .png, etc.)
+
+#Opening a file in different modes->
+
+# 1. Read mode ("r") - Opens a file for reading (default mode).
+
+'''f = open("file.txt", "r")
+data = f.read()
+print(data)
+f.close()'''
+
+# 2. Write mode ("w") - Opens a file for writing. If the file already exists, it will be overwritten. If the file does not exist, a new file will be created.
+
+'''st ="Hey will you marry me?"
+
+f = open("myfile.txt","w")
+f.write(st)
+f.close()'''
+
+# 3. Append mode ("a") - Opens a file for writing, but appends new data to the end of the file instead of overwriting it. If the file does not exist, a new file will be created.
+
+'''st = "\nHey, How are you doing?"
+
+f = open("myfile.txt","a")
+f.write(st)
+f.close()
+'''
+
+# 4. Read and Write mode ("r+") - Opens a file for both reading and writing. The file pointer is placed at the beginning of the file.
+
+# 5. Binary mode ("b") - Opens a file in binary mode, which is used for reading and writing binary data (e.g., images, audio files, etc.). This mode can be combined with other modes (e.g., "rb" for reading a binary file).
+
+# 6. Exclusive creation mode ("x") - Creates a new file, but raises an error if the file already exists. This mode is used to ensure that a new file is created and that existing files are not accidentally overwritten.
+
+# 7. Text mode ("t") - Opens a file in text mode, which is used for reading and writing text data. This is the default mode for opening files in Python. This mode can be combined with other modes (e.g., "rt" for reading a text file).
+
+# 8. Context manager ("with") - A context manager is a way to automatically manage resources, such as files, in Python. When you use a context manager to open a file, the file is automatically closed when the block of code is exited, even if an error occurs. This can help prevent resource leaks and make your code more robust. The syntax for using a context manager to open a file is as follows:
+
+'''with open("file.txt","r") as f:
+    print(f.read())'''
+
+# readlines() function---
+
+# f = open("file.txt","r")-->
+
+'''lines =f.readlines()
+print(lines, type(lines))'''
+
+'''line1 = f.readlines()
+print(line1, type(line1))
+
+line2 = f.readlines()
+print(line2, type(line2))
+
+line3 = f.readlines()
+print(line3, type(line3))
+
+line4 = f.readlines()
+print(line4 == "")'''
+
+'''line = f.readline()
+while(line != ""):
+    print(line)
+    line = f.readline()'''
+
+# f.close()
 
