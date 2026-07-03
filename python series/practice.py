@@ -115,3 +115,28 @@ line4 = f.readlines()
 print(line4 == [])
 
 f.close()'''
+
+#sum of all digit 
+'''a = 85476921
+sum = 0
+
+while a > 0:
+    digit = a % 10     # Get the last digit
+    sum = sum + digit   # Add the digit to sum
+    a = a // 10    # Remove the last digit
+
+print("Sum of digits =", sum)
+'''
+
+# reverse number
+'''a = 9843
+
+reverse = 0
+
+while a > 0:
+    digit = a % 10
+    reverse = reverse * 10 + digit
+    a = a // 10
+
+print("Reversed number =", reverse)'''
+

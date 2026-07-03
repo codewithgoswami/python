@@ -249,6 +249,20 @@ else:
 print("Thank you for using our service")'''
 
 
+# Short Hand if-else statements->
+
+'''a = int(input("Enter any number: "))
+print("Enter number: ",a)
+
+b = int(input("Enter any number: "))
+print("Enter number: ",b)
+
+print("A") if a>b else print("==") if a==b else print("B")
+
+c = "True" if a>b else ""
+print(c)
+'''
+
 # Match case statements--
 
 '''x = int(input("Enter the value of x: "))
@@ -461,6 +475,15 @@ print(a)'''
 goodday("Kuldeep")
 goodday("lily","you are lucky today")'''
 
+# Enumerate function->
+
+'''marks = [90, 80, 70, 60, 50]
+
+for index,mark in enumerate(marks, start =1):
+    print(mark)
+    if(index == 3):
+        print("Kuldeep is awesome!")'''
+
 
 # Recursion--Recursion is a programming technique where a function calls itself in order to solve a problem. It is often used to solve problems that can be broken down into smaller subproblems of the same type. A recursive function typically has a base case that stops the recursion and prevents infinite loops.
 
@@ -492,6 +515,7 @@ f.close()'''
 # Types of File->
 # 1. Text files (.txt, .csv, .json, etc.)
 # 2. Binary files (.bin, .dat, .jpg, .png, etc.)
+# 3. Log files (.log)
 
 #Opening a file in different modes->
 
@@ -602,6 +626,7 @@ print(a)'''
 
 if(a<3 or a>10):
     raise ValueError("Please enter a valid value between 3 to 10")'''
+
 
 
 
