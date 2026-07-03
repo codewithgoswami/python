@@ -598,7 +598,10 @@ print(a)'''
 
 #  Raise Custom errors-- In Python, you can create your own custom exceptions by defining a new class that inherits from the built-in Exception class. This allows you to create specific error types that are relevant to your application or domain.
 
-a = int(input("Enter any value between 3 to 10: "))
+'''a = int(input("Enter any value between 3 to 10: "))
 
 if(a<3 or a>10):
-    raise ValueError("Please enter a valid value between 3 to 10")
+    raise ValueError("Please enter a valid value between 3 to 10")'''
+
+
+
