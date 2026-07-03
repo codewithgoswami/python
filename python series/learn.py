@@ -534,7 +534,7 @@ f.close()
 
 # readlines() function---
 
-# f = open("file.txt","r")-->
+# f = open("file.txt","r")
 
 '''lines =f.readlines()
 print(lines, type(lines))'''
@@ -558,3 +558,47 @@ while(line != ""):
 
 # f.close()
 
+
+# Exceptions and Error Handling-- In Python, exceptions are errors that occur during the execution of a program. When an exception occurs, the normal flow of the program is interrupted, and the program may terminate or produce unexpected results. To handle exceptions and prevent program crashes, Python provides a mechanism called error handling.
+
+'''a = input("Enter a number: ")
+print(f"Multiplacation table of {a} is: ")
+try:
+    for i in range(1,11):
+        print(f"{a} X {i} = {int(a)*i}")
+
+except ValueError:
+    print("Please enter a valid number.")
+print("End of program")'''
+
+
+# Finally block-- The finally block is a part of the try-except statement in Python that is used to define a block of code that will always be executed, regardless of whether an exception was raised or not. The finally block is typically used to perform cleanup operations, such as closing files or releasing resources, that need to be executed regardless of whether an exception occurred.
+
+'''def func1():
+    try:
+        l = [1,2,3,4,5,6]
+        i = int(input("Enter a index value: "))
+        print(l[i])
+        
+        return 1
+    
+    except:
+        print("Please enter a valid index value.")
+
+        return 0
+    
+    finally:
+        print("End of program")
+
+    # print("End of program")
+
+a = func1()
+print(a)'''
+
+
+#  Raise Custom errors-- In Python, you can create your own custom exceptions by defining a new class that inherits from the built-in Exception class. This allows you to create specific error types that are relevant to your application or domain.
+
+a = int(input("Enter any value between 3 to 10: "))
+
+if(a<3 or a>10):
+    raise ValueError("Please enter a valid value between 3 to 10")
