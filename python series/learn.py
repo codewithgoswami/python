@@ -609,6 +609,26 @@ while True:
 
 print(line)'''
 
+# seek() and tell() function->
+
+'''with open("myfile.txt","r") as f:
+    print(type(f))
+
+    f.seek(10)
+
+    print(f.tell())
+    data = f.read(7)
+    print(data)'''
+
+# truncate() function->
+
+'''with open("sample.txt","w") as f:
+    f.write("Hello world!")
+    f.truncate(5)
+
+with open("sample.txt","r") as f:
+    print(f.read())'''
+
 
 # Exceptions and Error Handling-- In Python, exceptions are errors that occur during the execution of a program. When an exception occurs, the normal flow of the program is interrupted, and the program may terminate or produce unexpected results. To handle exceptions and prevent program crashes, Python provides a mechanism called error handling.
 
@@ -669,4 +689,3 @@ myfunc()
 print(x)'''
 #print(y) #its make error due to y variable is a local variable of myfunc
     
-
