@@ -713,3 +713,53 @@ print(cube(b))
 print(avg(8,9))'''
 
 
+#Map, Filter and Reduce--
+
+#Map
+
+'''def square(x):
+    return x*x
+
+print(square(8))
+
+l = [2,5,8,10,12,14,15]
+newl = []
+for item in l:
+    newl.append(square(item))
+
+print(newl)'''
+
+'''def square(x):
+    return x*x
+
+print(square(8))
+
+l = [2,5,8,10,12,14,15]
+
+newl = list(map(square,l))
+print(newl)'''
+
+
+# Filter
+
+'''l = [12,5,8,10,12,4,6]
+
+def filter_fun(a):
+    return a>5
+
+newl = list(filter(filter_fun,l))
+print(newl)'''
+
+# Reduce
+
+'''from functools import reduce
+
+num = [2,5,4,7,8,3,5]
+
+def mysum(x,y):
+    return x+y
+
+sum = reduce(mysum,num)
+
+print(sum)'''
+
