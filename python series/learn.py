@@ -763,3 +763,36 @@ sum = reduce(mysum,num)
 
 print(sum)'''
 
+
+# 'is' vs '==' --
+
+'''a = 8 
+b = 8
+
+print(a is b) # exact location of object in memory 
+print(a == b) # value of object '''
+
+'''a = 8 
+b = "8"
+
+print(a is b) # exact location of object in memory 
+print(a == b) '''
+
+'''a = "kuldeep" 
+b = "kuldeep"
+
+print(a is b) # exact location of object in memory 
+print(a == b) '''
+
+'''a = [1,2,3] 
+b = [1,2,3]
+
+print(a is b) # exact location of object in memory 
+print(a == b) '''
+
+'''a = (1,2,3) 
+b = (1,2,3)
+
+print(a is b) # exact location of object in memory 
+print(a == b) 
+'''
