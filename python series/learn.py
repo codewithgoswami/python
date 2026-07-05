@@ -512,6 +512,14 @@ data = f.read()
 print(data)
 f.close()'''
 
+'''f = open("file.txt", "r")
+while True:
+    line = f.readline()
+    print(line)
+    if not line:
+        print(line ,type(line))
+        break'''
+
 # Types of File->
 # 1. Text files (.txt, .csv, .json, etc.)
 # 2. Binary files (.bin, .dat, .jpg, .png, etc.)
@@ -581,6 +589,25 @@ while(line != ""):
     line = f.readline()'''
 
 # f.close()
+
+'''f = open("file.txt", "r")
+i = 0
+
+while True:
+    i += 1
+    line = f.readline()
+    
+    if not line:
+        break
+    m1 = int(line.split(",")[0])
+    m2 = int(line.split(",")[1])
+    m3 = int(line.split(",")[2])
+
+    print(f"Marks of student {i} in Maths is: {m1+2}")
+    print(f"Marks of student {i} in Phsyics is: {m2+2}")
+    print(f"Marks of student {i} in Chemistry is: {m3+2}")
+
+print(line)'''
 
 
 # Exceptions and Error Handling-- In Python, exceptions are errors that occur during the execution of a program. When an exception occurs, the normal flow of the program is interrupted, and the program may terminate or produce unexpected results. To handle exceptions and prevent program crashes, Python provides a mechanism called error handling.
