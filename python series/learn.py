@@ -689,3 +689,27 @@ myfunc()
 print(x)'''
 #print(y) #its make error due to y variable is a local variable of myfunc
     
+
+# Lambda function--
+
+'''def double(x):
+    return x*2'''
+
+'''def appl(fx, value):
+    return 22 + fx(value)
+
+print(appl(lambda x : x*x*x,165))'''
+
+'''double = lambda x : x*2
+cube = lambda y : y*y*y
+avg = lambda x,y : (x+y)/2
+
+a = int(input("Enetr the number:"))
+print(double(a))
+
+b = int(input("Enter the number:"))
+print(cube(b))
+
+print(avg(8,9))'''
+
+
