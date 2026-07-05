@@ -628,5 +628,18 @@ if(a<3 or a>10):
     raise ValueError("Please enter a valid value between 3 to 10")'''
 
 
+# Local and Global variables--
 
+'''x = 10 
+
+def myfunc(): 
+    x = 5
+    y = 7
+    print(x)  
+    print(y)
+
+myfunc()
+print(x)'''
+#print(y) #its make error due to y variable is a local variable of myfunc
+    
 
