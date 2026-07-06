@@ -796,3 +796,37 @@ b = (1,2,3)
 print(a is b) # exact location of object in memory 
 print(a == b) 
 '''
+
+
+# Oops - object oriented programmings--
+
+'''def hello():
+    print("hello")
+
+hello()
+
+sales1 = 6000
+profit1 = 2000
+add1 = 1000
+#kuldeep.sales
+
+sales2 = 8000
+profit2 = 3000
+add2 = 1500
+#roshan.sales
+
+sales3 = 5000
+profit3 = 1500
+add3 = 800
+#kelly.sales'''
+
+'''RailwayForm --> class[Blueprint]
+
+Harry --> harry ki info wala form --> Object[entity]
+Kuldeep --> kuldeep ki info wala form --> Object[entity]
+Roshan --> roshan ki info wala form --> Object[entity]'''
+
+# Shubham.changeName("Shubhi")
+
+
+
