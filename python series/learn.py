@@ -856,7 +856,44 @@ b.info()
 c.info()'''
 
 
+# Constructor-- it is used to make a object 
+
+'''class person():
+
+    def __init__(self,name,occ):
+        print("Today")
+
+        self.name = name
+        self.occ = occ
+
+    def info(self):
+        print(f"{self.name} is a {self.occ}")
+
+a = person("Hari","HR")
+a.info()
+b = person("Kali","ML specialist")
+b.info()'''
 
 
+# Decorators--
+
+'''def greet(fx):
+    def mfx(*args,**kwargs):
+        print("Good Morning")
+        fx(*args,**kwargs)
+        print("Thank for using this function")
+    return mfx
+    
+@greet
+def hello():
+    print("Hello World")
+
+hello()
+
+def add(a,b):
+    print(a+b)
+
+greet(add)(1,4)
+'''
 
 
