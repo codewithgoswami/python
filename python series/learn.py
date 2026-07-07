@@ -829,4 +829,34 @@ Roshan --> roshan ki info wala form --> Object[entity]'''
 # Shubham.changeName("Shubhi")
 
 
+# Class and Objects--
+
+'''class Person:
+    name = "Harry"
+    occupation = "Software Engineer"
+    salary = 80000
+
+    def info(self):
+        print(f"{self.name} is a {self.occupation} and his salary is {self.salary}")
+
+a = Person()
+b = Person()
+c = Person()
+
+a.name = "Kuldeeep Goswami"
+a.occupation = "ML Engineer"
+a.salary = 100000
+
+b.name = "Kelly"
+b.occupation = "Civil Engineer"
+b.salary = 50000
+
+a.info()
+b.info()
+c.info()'''
+
+
+
+
+
 
